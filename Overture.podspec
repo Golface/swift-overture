@@ -10,10 +10,10 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "MIT", :file => "LICENSE" }
   spec.author = { "Point-Free" => "support@pointfree.co" }
   
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "11.0"
   spec.osx.deployment_target = "10.15"
   spec.watchos.deployment_target = "6.0"
-  spec.tvos.deployment_target = "13.0"
+  spec.tvos.deployment_target = "11.0"
   spec.swift_version = '5.5'
   
   spec.source = { :git => "https://github.com/pointfreeco/swift-overture.git", :tag => "#{spec.version}" }
